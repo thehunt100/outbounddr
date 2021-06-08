@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-131465208-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-131465208-1');
+</script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="A 100% Safe Manual LinkedIn Automation Service | LeadTurk">
+  <meta property="og:url" content="https://leadturk.com/" />
+  <meta property="og:type" content="article" />
+  <meta property="og:title" content="A 100% Safe Manual LinkedIn Automation Service" />
+  <meta property="og:description" content="A 100% Safe Manual LinkedIn Automation Service | LeadTurk Calculator" />
+  <meta property="og:image" content="https://leadturk.com/assets/img/main-banner.png" />
+  <link rel="icon" href="assets/img/favicon.png">
+
+  <title>The Human-powered LinkedIn Lead Generation Tool</title>
+
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+
+
+  <!-- Custom styles for this template -->
+  <link href="css/style.css" rel="stylesheet">
+
+
+</head>
+
+<body>
+
+  <div class="container mt-5 px-5 text-center">
+
+    <a class="mx-0 mt-5" href="https://leadturk.com">Back to Site</a>
+
+    <h1 class="pb-1 pb-5">LeadTurk Calculator</h1>
+    <!-- <h3 class="pt-1 pb-5">You define the rules, LeadTurk does the work</h3> -->
+
+    <div class="text-center mb-5">
+
+      <!-- BEGIN -->
+
+      <div class="form-row  mb-2">
+        <div class="col-12 col-md-4">
+          <label class="col-form-label" for="first">How many connection invites per day?</label>
+        </div>
+        <div class="col-12 col-md-7">
+          <input max="100" id='first' type="number" class="form-control" name="bus_ticket" placeholder="max 100" required />
+          <span id="connection-error" class="error text-danger d-none">value must be smaller or equal to 100</span>
+        </div>
+      </div>
+
+      <div class="form-row">
+        <div class="col-12 col-md-4">
+        </div>
+        <div class="col-12 col-md-7">
+          <div class="form-check" style="float: left">
+            <input class="form-check-input" type="checkbox" value="" id="thankYouMessage">
+            <label class="form-check-label" for="thankYouMessage">
+              Do you want us to send a 'Thank you' message to the new connections?
+            </label>
+          </div>
+        </div>
+      </div>
+
+      <div class="form-row mt-4">
+        <div class="col-12 col-md-4">
+          <label class="col-form-label" for="second">How many messages per day?</label>
+        </div>
+        <div class="col-12 col-md-7">
+          <input max="60" id='second' type="number" class="form-control" name="plane_ticket" placeholder="unlimited" required /><br />
+        </div>
+      </div>
+
+      <div class="form-row">
+        <div class="col-12 col-md-4">
+          <label class="col-form-label" for="third">How many profile views per day?</label>
+        </div>
+        <div class="col-12 col-md-7">
+          <input max="100" id='third' type="number" class="form-control" name="hotel_expenses" placeholder="max 100" required />
+          <span id="profile-views-error" class="error text-danger d-none">value must be smaller or equal to 100</span>
+          <br>
+        </div>
+      </div>
+
+      <div class="form-row">
+        <div class="col-12 col-md-4">
+          <label class="col-form-label" for="fourth">Amount days per week (max 5)</label>
+        </div>
+        <div class="col-12 col-md-7">
+          <input max="5" id='fourth' type="number" class="form-control" name="eating_expenses" placeholder="Maximum 5" required />
+          <span id="amount-per-week-error" class="error text-danger d-none">value must be smaller or equal to 5</span>
+        </div>
+      </div>
+      <span class="text-danger error"></span>
+      <br />
+      <br />
+      <br />
+      Price per day: $ <span id="total_per_day"></span>
+      <br />
+      Credits per day: <span class="big" id="credits_per_day"></span>
+      <br />
+      <br />
+      Price per week: $ <span  id="total_per_week"></span>
+      <br />
+      Credits per week: <span class="big" id="credits_per_week"></span>
+      <br />
+      <br />
+      Price per month: $ <span id="total_per_month"></span>
+      <br />
+      Credits per month: <span class="big" id="credits_per_month"></span>
+
+      <!-- <br /> -->
+      <!-- Total: <input id='total_expenses2' type="text" class="form-control" name="funding"  placeholder="Total Expenses..."/> -->
+
+      <!-- END -->
+
+    </div>
+
+  </div> <!-- /container -->
+
+  <footer class="footer text-center">
+    <p>&copy; <!-- <img class="img-responsive img-fluid" src="img/logo.png" alt="Logo LeadTurk" style="max-width: 100px;" /> --> LeadTurk 2019</p>
+    <p>Questions? - <a href="mailto:hello@leadturk.com">hello@leadturk.com</a></p>
+  </footer>
+
+
+  <!-- Bootstrap core JavaScript
+    ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+
+
+  <script type="text/javascript">
+    function roundToTwo(num) {
+        return +(Math.round(num + "e+2")  + "e-2");
+    }
+    $('input').keyup(function(e) {
+      var $this = $(this);
+      var val = $this.val();
+      var maxVal = parseInt($this.attr("max"));
+      if (val > maxVal) {
+        if ($this[0].nextElementSibling.tagName === "SPAN") {
+          $this[0].nextElementSibling.classList.remove('d-none');
+          $this.val(maxVal);
+          e.preventDefault();
+        }
+      } else {
+        if ($this[0].nextElementSibling.tagName === "SPAN") {
+          if (!$this[0].nextElementSibling.classList.contains('d-none')) {
+            $this[0].nextElementSibling.classList.add('d-none');
+          }
+        }
+      }
+    });
+
+    $('#thankYouMessage').click(function() {
+      calculate();
+    });
+
+    function calculate() {
+      var connectionRequestsPerDay = Number($('#first').val()); // get value of field
+      var messagesPerDay = Number($('#second').val()); // convert it to a float
+      var profileViewsPerDay = Number($('#third').val());
+      var daysPerWeek = Number($('#fourth').val());
+
+      var creditPrice = 0.10;
+
+      var connectionRequestsPerDayPrice = connectionRequestsPerDay * (creditPrice / 2);
+      var messagesPerDayPrice = messagesPerDay * (creditPrice);
+      var profileViewsPerDayPrice = profileViewsPerDay * (creditPrice / 4);
+
+      var totalValuesPerDay = connectionRequestsPerDayPrice + messagesPerDayPrice + profileViewsPerDayPrice;
+      var totalValuesPerWeek = daysPerWeek * totalValuesPerDay;
+      var totalValuesPerMonth = totalValuesPerWeek * 4;
+
+      var creditsPerDay = Math.round(totalValuesPerDay / creditPrice);
+      var creditsPerWeek = Math.round(totalValuesPerWeek / creditPrice);
+      var creditsPerMonth = Math.round(totalValuesPerMonth / creditPrice);
+
+      if ($('#thankYouMessage').is(':checked')) {
+        totalValuesPerDay = totalValuesPerDay + (0.3 * connectionRequestsPerDayPrice);
+      }
+
+      $('#total_per_day').html(
+        roundToTwo(totalValuesPerDay)
+      );
+
+      $('#credits_per_day').html(
+        creditsPerDay
+      );
+
+      $('#total_per_week').html(
+        // Math.round(
+        roundToTwo(totalValuesPerWeek)
+        // )
+      );
+
+      $('#credits_per_week').html(
+        creditsPerWeek
+      );
+
+
+      $('#total_per_month').html(
+        roundToTwo(totalValuesPerMonth)
+      );
+
+      $('#credits_per_month').html(
+        creditsPerMonth
+      );
+    }
+
+    $('input').keyup(function() { // run anytime the value changes
+      calculate();
+    });
+
+  </script>
+
+
+
+
+
+</body>
+
+</html>

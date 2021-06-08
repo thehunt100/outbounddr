@@ -1,0 +1,228 @@
+/* Space out content a bit */
+body {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  color: #212529;
+}
+
+blockquote {
+  font-style: italic;
+  color: #868e96
+}
+
+a {
+  color: #4977d6;
+}
+
+h1 {
+  padding-top: 1.7rem;
+}
+
+h2 {
+  padding-top: 1.3em;
+}
+
+h3 {
+  padding-top: 1.1rem;
+}
+
+p strong {
+  padding-top: 1rem;
+}
+
+.big {
+  font-size: 1.2rem;
+}
+
+.section-heading {
+  font-size: 36px;
+  font-weight: 700;
+  margin-top: 60px
+}
+
+.caption {
+  font-size: 14px;
+  font-style: italic;
+  display: block;
+  margin: 0;
+  padding: 10px;
+  text-align: center;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px
+}
+
+::-moz-selection {
+  color: #fff;
+  background: #4977d6;
+  text-shadow: none
+}
+
+::selection {
+  color: #fff;
+  background: #4977d6;
+  text-shadow: none
+}
+
+img::-moz-selection {
+  color: #fff;
+  background: 0 0
+}
+
+img::selection {
+  color: #fff;
+  background: 0 0
+}
+
+img::-moz-selection {
+  color: #fff;
+  background: 0 0
+}
+
+b, strong {
+  font-weight: bold;
+}
+
+.full-width {
+  width: 100% !important;
+}
+
+.gray {}
+
+.blue {
+  color: #4977d6 !important;
+}
+
+.green {}
+
+.red {}
+
+.bg-gray {
+  background-color: #e8e8e8;
+}
+
+.bg-blue {
+  background-color: #4977d6 !important;
+}
+
+.bg-green {}
+
+.bg-red {}
+
+.container {}
+
+/* Everything but the jumbotron gets side spacing for mobile first views */
+#logo {
+  max-width: 300px;
+}
+
+.header,
+.marketing,
+.footer {
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+
+.form-control {
+  height: 50px;
+  background: rgba(255, 255, 255, 0.6);
+  border-color: #243c4f;
+  border-radius: 0;
+}
+
+.btn-theme {
+  min-height: 50px;
+  border-radius: 0;
+  background: #243c4f;
+  color: #fff;
+}
+
+.btn-theme:hover {
+  background: #31516a;
+  color: #fff;
+}
+
+/* Custom page footer */
+.footer {
+  padding-top: 1.5rem;
+  color: #777;
+  border-top: .05rem solid #e5e5e5;
+}
+
+.profile-img {
+  height: 240px;
+}
+
+/* Customize container */
+@media (min-width: 48em) {
+  .container {
+    /*max-width: 46rem;*/
+  }
+}
+
+.container-narrow>hr {
+  margin: 2rem 0;
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 48em) {
+
+  /* Remove the padding we set earlier */
+  .header,
+  .marketing,
+  .footer {
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  /* Space out the masthead */
+  .header {
+    margin-bottom: 2rem;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .input-group {
+    display: flex;
+    flex-direction: column;
+  }
+
+  body>div>div.col-sm-12.my-5.text-center>div>div>input, #submit_btn {
+    width: 100%;
+    border-radius: 0px;
+    margin-bottom: 10px;
+  }
+
+  #submit_btn {
+    margin-left: 0px;
+  }
+}
+
+.sticky-share {
+  opacity: 0;
+  position: fixed;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.8);
+  color: #fff;
+}
+
+.sticky-share.visible {
+  opacity: 1;
+  -webkit-transition: opacity 1.5s ease-in-out;
+  -moz-transition: opacity 1.5s ease-in-out;
+  -ms-transition: opacity 1.5s ease-in-out;
+  -o-transition: opacity 1.5s ease-in-out;
+  transition: opacity 1.5s ease-in-out;
+}
+
+.sticky-share a {
+  color: #fff;
+}
+
+.sticky-share a:hover {
+  text-decoration: none;
+}
+
+.sticky-share a img {
+  max-height: 40px;
+  margin-left: 10px;
+}

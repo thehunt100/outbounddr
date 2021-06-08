@@ -1,0 +1,270 @@
+a {
+    color: #5285C4;
+}
+
+.bg-gray {
+    _background-color: #edf5ff;
+    background-color: #5285C4;
+}
+
+.section-title span {
+    _color: #5285C4;
+    color: #fff;
+}
+
+.section-title h3::before {
+    _color: #5285C4;
+    color: #fff;
+}
+
+.owl-theme .owl-nav [class*="owl-"] {
+    color: #5285C4;
+}
+
+.owl-theme .owl-nav [class*="owl-"]:hover {
+    background: #5285C4;
+}
+
+.btn-primary {
+    background-color: #5285C4;
+    border-color: #5285C4;
+}
+
+.btn-primary.disabled,
+.btn-primary:disabled {
+    background-color: #5285C4;
+    border-color: #5285C4;
+}
+
+.btn-primary:not(:disabled):not(.disabled).active,
+.btn-primary:not(:disabled):not(.disabled):active,
+.show>.btn-primary.dropdown-toggle {
+    background-color: #6993ff;
+    border-color: #6993ff;
+}
+
+.btn-primary:hover {
+    background-color: #6993ff;
+    border-color: #6993ff;
+}
+
+.double-bounce1,
+.double-bounce2 {
+    background-color: #5285C4;
+}
+
+.navbar-brand span {
+    color: #5285C4;
+}
+
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #5285C4;
+}
+
+.navbar-light .navbar-nav .active>.nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show>.nav-link {
+    color: #5285C4;
+}
+
+.navbar-light .navbar-nav .active>.nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show>.nav-link {
+    color: #5285C4;
+}
+
+.creative-bg {
+    background: #5285C4;
+}
+
+.creative-bg-two {
+    background: #5285C4;
+}
+
+.single-features:hover {
+    background: #5285C4;
+}
+
+.single-features i {
+    color: #5285C4;
+}
+
+.about-content ul li i {
+    color: #5285C4;
+}
+
+.about-text ul li i {
+    color: #5285C4;
+}
+
+.about-text span {
+    background: rgba(88, 130, 253, .8);
+}
+
+.about-text .blockquote {
+    background: rgba(88, 130, 253, .4);
+}
+
+.single-services:hover {
+    background: #5285C4;
+}
+
+.single-services i {
+    background: #5285C4;
+}
+
+.single-services:hover i {
+    color: #5285C4;
+}
+
+.tabs a:hover i,
+.tabs .current a i {
+    background: #5285C4;
+}
+
+.tabs_item_content ul li i {
+    color: #5285C4;
+}
+
+.tabs a:hover,
+.tabs .current a {
+    color: #5285C4;
+}
+
+.funfacts-area::before {
+    background: #5285C4;
+}
+
+.funFact i {
+    color: #5285C4;
+}
+
+.fun-fact i {
+    color: #5285C4;
+}
+
+.single-box:hover span {
+    background: #5285C4;
+}
+
+.our-team .social li a {
+    color: #5285C4;
+}
+
+.our-team .social li a:hover {
+    background: #5285C4;
+}
+
+.single-team .pic::after {
+    border: 2px solid #5285C4;
+}
+
+.single-team .social-links li a:hover {
+    background: #5285C4;
+    border-color: #5285C4;
+}
+
+.single-team .team-content {
+    border-top: 2px solid #5285C4;
+}
+
+.testimonials-item:hover {
+    background: #5285C4;
+}
+
+.client-info .client-title span {
+    color: #5285C4;
+}
+
+.accordion .accordion-title {
+    background: #5285C4;
+}
+
+.pricingTable .title {
+    background: #5285C4;
+}
+
+.pricingTable:hover .price-value {
+    background: #5285C4;
+}
+
+.pricing-table:hover .icon {
+    background: #5285C4;
+}
+
+.pricing-table .pricing-table-header {
+    background: #5285C4;
+}
+
+.pricing-table .icon {
+    color: #5285C4;
+}
+
+.partner-area .owl-item img {
+    border: 1px solid #5285C4;
+}
+
+.subscribe-area {
+    background: #5285C4;
+}
+
+.newsletter h4 span {
+    color: #5285C4;
+}
+
+.page-title {
+    background: #5285C4;
+}
+
+.contact-box .icon {
+    border: 1px dashed #5285C4;
+    color: #5285C4;
+}
+
+.contact-box:hover .icon {
+    background: #5285C4;
+}
+
+.contact-box .content p a:hover {
+    color: #5285C4;
+}
+
+.single-footer .logo a span {
+    color: #5285C4;
+}
+
+.single-footer ul li a:hover {
+    color: #5285C4;
+}
+
+.single-footer .contact-info li i {
+    color: #5285C4;
+}
+
+.copyright-area ul li a {
+    border: 1px solid #5285C4;
+}
+
+.copyright-area ul li a:hover {
+    background: #5285C4;
+    border-color: #5285C4;
+}
+
+.go-top:hover {
+    background: #5285C4;
+}
+
+.navbar-light .navbar-toggler {
+    border-color: #5882fd;
+}
+
+.navbar-light .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(88, 130, 253, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+p.white {
+    color: #fff;
+}

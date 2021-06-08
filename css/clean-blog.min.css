@@ -1,0 +1,51 @@
+/*!
+ * Start Bootstrap - Clean Blog v5.0.2 (https://startbootstrap.com/template-overviews/clean-blog)
+ * Copyright 2013-2018 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-clean-blog/blob/master/LICENSE)
+ */
+
+
+.post-preview>a {
+    color: #212529
+}
+
+.post-preview>a:focus,
+.post-preview>a:hover {
+    text-decoration: none;
+    color: #4977d6
+}
+
+.post-preview>a>.post-title {
+    font-size: 30px;
+    margin-top: 30px;
+    margin-bottom: 10px
+}
+
+.post-preview>a>.post-subtitle {
+    font-weight: 300;
+    margin: 0 0 10px
+}
+
+.post-preview>.post-meta {
+    font-size: 18px;
+    font-style: italic;
+    margin-top: 0;
+    color: #868e96
+}
+
+.post-preview>.post-meta>a {
+    text-decoration: none;
+    color: #212529
+}
+
+.post-preview>.post-meta>a:focus,
+.post-preview>.post-meta>a:hover {
+    text-decoration: underline;
+    color: #0085a1
+}
+
+@media only screen and (min-width:768px) {
+    .post-preview>a>.post-title {
+        font-size: 36px
+    }
+}
